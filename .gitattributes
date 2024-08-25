@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+*.[Mm][Dd] text
+.gitignore text
+.gitattributes text
+
