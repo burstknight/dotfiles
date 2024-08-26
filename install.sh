@@ -30,3 +30,8 @@ if [[ $? -ne 0 ]]; then
 fi
 
 sudo usermod -s /bin/zsh $USER
+
+mkdir -p ~/.zsh
+cd ~/.zsh
+curl -o git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+curl -o _git https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
