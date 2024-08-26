@@ -37,4 +37,6 @@ curl -o git-completion.bash https://raw.githubusercontent.com/git/git/master/con
 curl -o _git https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
 cd -
 
-cp dotfiles/zshrc ~/.zshrc
+cp ./zsh/.zshrc $HOME
+cp ./zsh/.zprofile $HOME
+cp ./zsh/.p10k.zsh $HOME
