@@ -16,7 +16,8 @@ sudo apt-get install -y \
 	libxml2-dev \
 	libxmlsec1-dev \
 	libffi-dev \
-	liblzma-dev
+	liblzma-dev \
+	zsh
 
 which pyenv > /dev/null
 if [[ $? -ne 0 ]]; then
@@ -28,3 +29,4 @@ if [[ $? -ne 0 ]]; then
 	curl -sSL https://install.python-poetry.org | python3 -
 fi
 
+sudo usermod -s /bin/zsh $USER
